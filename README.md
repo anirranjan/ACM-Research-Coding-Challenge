@@ -20,3 +20,6 @@ Please follow the below instructions on how to submit your answers.
 Given the following dataset in `ClusterPlot.csv`, determine the number of clusters by using any clustering algorithm. **You're allowed to use any Python library you want to implement this**, just document which ones you used in this README file. Try to complete this as soon as possible.
 
 Regardless if you can or cannot answer the question, provide a short explanation of how you got your solution or how you think it can be solved in your README.md file.
+
+Nirranjan Akilan - ACM Research Coding Challenge solution:
+I used the pandas library to read in the CSV file, scikit library to use KMeans, and matplotlib to display my findings. I was able to get to my solution by using the Elbow Method, a method that uses k means for a range of values and calculates the error for each value. The value that results in the shape of the elbow would be the number of clusters in the given dataset. (Source for Elbow Method code: https://stackoverflow.com/questions/19197715/scikit-learn-k-means-elbow-criterion#:~:text=Elbow%20Criterion%20Method%3A,of%20squared%20errors%20(SSE).)
